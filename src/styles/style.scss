@@ -8,3 +8,31 @@ h1 {
 	text-align: center;
 	color: fuchsia;
 }
+#app-container{
+	margin: 0 auto;
+	background-image:linear-gradient(#16a085 , #f1c40f 30%);
+
+	.row{
+		padding-left: 20px;
+	}
+	.head{
+		padding-left: 50px;
+	}
+	.thumbnail{
+		border: none;
+		background: rgba(0,0,0,0);
+		.btn{
+			background: black;
+			border: 0px;
+			color:#FFF;
+
+		}
+	}
+	.thumbnail:hover {
+		background: #bdc3c7;
+	}
+	.caption{
+		text-align: center;
+	}
+
+}
